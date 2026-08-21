@@ -36,7 +36,7 @@ async function init() {
     <header class="header">
       <div class="container nav-container">
         <div class="logo-area">
-          <img src="/441.png" alt="Rotary Çalıştayı Logosu" class="site-logo" />
+          <img src="/logo.png" alt="Rotary Çalıştayı Logosu" class="site-logo" />
           <span class="logo-text">${settings.title}</span>
         </div>
         <a href="${settings.form_url}" target="_blank" class="btn btn-primary">KAYIT OL</a>
@@ -46,7 +46,7 @@ async function init() {
     <section class="hero-section">
       <div class="container hero-content">
         <div class="banner-wrapper">
-          <img src="/440.jpg" alt="Rotary Geliyoruz Banner" class="hero-banner" />
+          <img src="/hero.jpg" alt="Rotary Geliyoruz Banner" class="hero-banner" />
         </div>
         <h1 class="hero-title">${settings.title}</h1>
         <p class="hero-date">21–22 KASIM 2026</p>
@@ -77,7 +77,7 @@ async function init() {
         <div class="staff-grid">
           ${staffList.map(s => `
             <div class="staff-card">
-              <img src="${s.photo_url || '/441.png'}" alt="${s.name}" class="staff-img" />
+              <img src="${s.photo_url || '/logo.png'}" alt="${s.name}" class="staff-img" />
               <h3>${s.name}</h3>
               <p>${s.role}</p>
             </div>
@@ -126,4 +126,3 @@ function startCountdown(targetDateStr) {
 }
 
 init()
-
