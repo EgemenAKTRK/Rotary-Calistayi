@@ -25,3 +25,4 @@ GitHub'a yükle ve Vercel'e import et. Environment Variables kısmına:
 - VITE_SUPABASE_ANON_KEY
 
 ekle. Build command: `npm run build`; output: `dist`.
+
